@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Темный фон */
+    color: #fff; /* Белый текст */
+}
+
+.banner {
+    background-image: url('your-banner-image.jpg'); /* Замените 'your-banner-image.jpg' на путь к вашему изображению баннера */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Высота баннера будет равной высоте видимой области окна браузера */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для контента */
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Цвет кнопки */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
